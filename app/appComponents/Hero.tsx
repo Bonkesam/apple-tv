@@ -27,20 +27,20 @@ const Hero = () => {
                 />
             </div>
         </motion.div>
-        <PageContainer className='relative z-10 h-[--hero-height]'>
+        <PageContainer className='relative z-10 h-[--hero-height] pb-7'>
             <motion.div 
             className='flex flex-col h-full justify-end items-start'
             variants={{
-                hidden: {opacity: 0, y: 20},
-                vidible: {opacity: 1, y: 0},
+                hidden: {opacity: 0 },
+                visible: {opacity: 1},
             }}
             whileInView="visible"
             exit="hidden"
             animate="hidden"
-            viewport={{ amount: 0.9}}
+            viewport={{ amount: 0.98}}
             
             >
-                <h1 className='text-5xl font-bold py-6'>All Smart TV originals.<br/> only on Smart TV+</h1>
+                <h1 className='text-4xl mb-10 font-bold md:text-5xl'>All Smart TV originals.<br/> only on Smart TV+</h1>
                 <Button size="lg" variant="outline" className='rounded-full mb-16'>
                     Stream now
                 </Button>
