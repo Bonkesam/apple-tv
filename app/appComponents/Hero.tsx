@@ -15,15 +15,15 @@ const Hero = () => {
     const opacity = useTransform(scrollYProgress, [0, 0.7, 1], [1, 1, 0])
 
   return (
-    <div className='relative bg-mainbackground text-white'>
+    <div className='bg-mainbackground text-white'>
         <motion.div style={{opacity}} ref={videoContainerRef} className='absolute -top-[--header-height] left-0 w-full h-[200vh]'>
-            <div className='sticky top-0 h-screen w-full'>
+            <div className='sticky top-0 h-screen w-full object-cover'>
                 <Image
                     src="/hero-bg.jpg"
                     alt="Hero Background"
                     width={1920}
                     height={1080}
-                    objectFit='cover'
+                    
                 />
             </div>
         </motion.div>
