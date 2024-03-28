@@ -44,7 +44,6 @@ export default function Home() {
       <Hero/>
       <Usps/>
     </div>
-    <div>3 col layout</div>
     <div>Carousel with posters</div>
   </main>
   </>
