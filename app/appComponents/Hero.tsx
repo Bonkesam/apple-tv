@@ -38,6 +38,8 @@ const Hero = () => {
             exit="hidden"
             animate="hidden"
             viewport={{ amount: 0.98}}
+            transition={{duration: .8, ease: "easeOut"}}
+
             
             >
                 <h1 className='text-4xl mb-10 font-bold md:text-5xl'>All Smart TV originals.<br/> only on Smart TV+</h1>
