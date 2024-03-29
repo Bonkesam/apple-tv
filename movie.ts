@@ -4,7 +4,7 @@ export type Movie = {
 };
 
 export const movies = [
-    {poster: "/posters/beachboy.jpg", name: "Beach boy"},
+    {poster: "/posters/zebra.jpg", name: "zebra"},
     {poster: "/posters/coffeelady.jpg", name: "Coffee Lady"},
     {poster: "/posters/meditating.jpg", name: "fed Giraffe"},
     {poster: "/posters/Museleum.jpg", name: "Museleum"},
@@ -13,7 +13,7 @@ export const movies = [
     {poster: "/posters/sittinglady.jpg", name: "Sitting Lady"},
 ];
 
-export const randomMoviesset1 = movies
+export const randomMoviesSet1 = movies
     .sort(() => Math.random() - 0.5)
     .concat(movies.sort(() => Math.random() - 0.5))
     .concat(movies.sort(() => Math.random() - 0.5))

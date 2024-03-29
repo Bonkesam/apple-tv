@@ -5,6 +5,7 @@ import Hero from "./appComponents/Hero";
 import Usps from "./appComponents/Usps";
 import { useEffect, useRef } from "react";
 import Lenis from "@studio-freight/lenis";
+import VideoCarousel from "./appComponents/VideoCarousel";
 
 export default function Home() {
 
@@ -44,7 +45,7 @@ export default function Home() {
       <Hero/>
       <Usps/>
     </div>
-    <div>Carousel with posters</div>
+    <VideoCarousel/>
   </main>
   </>
 );
